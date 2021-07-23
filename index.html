@@ -1,0 +1,130 @@
+<html>  
+    <head>
+       
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+  
+<script>  
+  function calculation(){
+        // program to create a simple calculator using the if...else...if in JavaScript.  
+// take the operator from the user through prompt box in JavaScript.  
+const operator = prompt('Enter operator to perform the calculation ( either +, -, * or / ): ');  
+  
+  // accept the number from the user through prompt box  
+  const number1 = parseFloat(prompt ('Enter the first number: '));  
+  const number2 = parseFloat(prompt ('Enter the second number: '));  
+    
+  let result; // declaration of the variable.  
+    
+  // use if, elseif and else keyword to define the calculator condition in JavaScript.  
+  if (operator == '+') { // use + (addition) operator to add two numbers  
+      result = number1 + number2;  
+  }  
+  else if (operator == '-') { // use -  (subtraction) operator to subtract two numbers  
+      result = number1 - number2;  
+  }  
+  else if (operator == '*') { // use * (multiplication) operator to multiply two numbers  
+      result = number1 * number2;  
+  }  
+  else {  
+      result = number1 / number2; // use / (division) operator to divide two numbers  
+  }  
+    
+  // display the result of the Calculator  
+   window.alert(" Result is" + result); 
+  }
+  function hello(){
+    window.alert("Hello World");
+  }
+  function nimal(){
+//create an object:
+const person = {
+      fname : "Nimal",
+      lname : "Raj",
+      age : 15,
+      live : "Kandy",  
+  };
+     //Display some data from the object:
+     document.getElementById("nimal").innerHTML= "My" + " " + "name" + " " + "is" + " " + person.fname + " " + person.lname + "." + "I'm" + " " + person.age + " " +      "years" + " " + "old" + "." + "I" + " " + "live" + " " + "in" + " " + person.live;
+ 
+  }
+    function bit(){
+        //create an object:
+        const course = {
+            courseName : "BIT Course",
+            fee : 150000,
+            date : 12,
+            month : 06,
+            year : 2018,
+            center : "Our Office",
+
+        };
+        //Display som data from the object:
+        document.getElementById("bit").innerHTML= "Course" + " " + " name" + ":" + course.courseName + " - "  + "Fee" + course.fee + " - " + " Start" + " : " + " Date" + course.date  + "." + course.month + "." + course.year + " -  " + " Center " + ":" + course.center; 
+    }
+   function month(){
+      
+    let text;
+     text = prompt("Please enter the number")
+switch(text)
+{
+  case "1":
+   alert("January");
+    break;
+  case "2":
+    alert("February");
+    break;
+    case "3":
+    alert ("March");
+    break;
+  case "4":
+    alert ("April");
+    break;
+    case "5":
+    alert ("May");
+    break;
+  case "6":
+    alert ("June");
+    break;
+    case "7":
+    alert ("July");
+    break;
+  case "8":
+    alert ("August");
+    break;
+    case "9":
+    alert ("September");
+    break;
+  case "10":
+    alert ("October");
+    break;
+    case "11":
+    alert("November");
+    break;
+  case "12":
+    alert ("December");
+    break;
+  default:
+    alert("Invalid Choice");
+}
+window.alert(text)
+   }
+   
+    
+  </script>
+
+<body>  
+    <h1>Js Activity today</h1>
+    <h2>Question 01</h2>
+    <button onclick="calculation()">question 01</button><br><br>
+    <button onclick="hello()">Question 03</button><br><br>
+    <button onclick=" nimal()" id="nimal">Question 04</button><br><br>                        
+    <button onclick="bit()" id="bit">question 05</button><br><br>
+    <button onclick="month()">Question 11</button>                                          
+  
+
+
+
+</body>  
+</html> 

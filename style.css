@@ -1,0 +1,23 @@
+body{
+    background-color: lightslategrey;
+    background-image: url(https://images.pexels.com/photos/1072179/pexels-photo-1072179.jpeg?cs=srgb&dl=pexels-c%C3%A1tia-matos-1072179.jpg&fm=jpg);
+}
+h1{
+    text-align: center;
+    color: red;
+    font-weight:bolder;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: black 15px;
+}
+h2{
+    color: blue;
+    text-size-adjust: 25px;
+}
+button{
+    background-color: crimson;
+    color: gold;
+    text-size-adjust: 20px;
+}
+p{
+    color: hotpink;
+}
